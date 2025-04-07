@@ -10,6 +10,11 @@ Repositorio del examen de **Evaluación Tecnología Web I**, desarrollado por **
 
 Este proyecto es una réplica de un diseño de Figma como parte de la evaluación práctica. El diseño original se encuentra en el siguiente enlace: [Figma Design](https://www.figma.com/design/LZC0LVciZUDx109WEKuo5V/Personal-Portfolio-Website---Web-I-OK--Copy-?t=TI4GoiKE55eMCtyU-0).
 
+## Enlace del examen
+```bash
+https://jjlizarazu.github.io/Evaluacion_Tecnologia_Web_I/
+```
+
 ## Manual de Uso
 
 ### **Clonar el repositorio**
