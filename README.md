@@ -12,7 +12,7 @@ Este proyecto es una réplica de un diseño de Figma como parte de la evaluació
 
 ## Enlace del examen
 ```bash
-https://jjlizarazu.github.io/Evaluacion_Tecnologia_Web_I/
+[Evaluación](https://jjlizarazu.github.io/Evaluacion_Tecnologia_Web_I/)
 ```
 
 ## Manual de Uso
