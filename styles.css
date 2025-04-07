@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.header-top{
+    display: flex;
+    background-color: #020617;
+    width: 100%;
+    height: 62px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.header-container .items{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .header-container .about-me{
+    font-family: Lexend Deca;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    
+}
+
+.header-top .header-container .about-me span{
+    color: #eab308;
+}
+
+.header-top .header-container .items .links{
+    display: flex;
+    gap: 38px;
+    list-style-type: none;
+}
+
+.header-top .header-container .items .links a{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #9ca3af;
+}
+
+.presentation{
+    width: 100%;
+    height: 619px;
+    background-color: #111827;
+    padding: 96px 165px;
+}
+
+.presentation .container-p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+
+.presentation .container-p .items{
+    width: 427px;
+    height: 427px;
+}
+
+.presentation .container-p .items:nth-child(1){
+    display: flex;
+    width: 466px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.presentation .container-p .items .hello{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #EAB308;
+
+} 
+
+.presentation .container-p .items .title{
+    font-family: Lexend Deca;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: #f3f4f6;
+}
+
+.presentation .container-p .items .text{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #6B7280;
+}
+
+.presentation .container-p .items .contact-us{
+    color: #000;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    width: 123px;
+    height: 43px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #EAB308;
+    text-decoration: none;
+    text-align: center;
+}
+
+.portfolio{
+    background-color: #020617;
+}
+
+.portfolio .container-portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 96px;
+}
+
+.portfolio .container-portfolio .items:nth-child(1){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 461px;
+    height: 169px;
+    margin: auto;
+}
+
+.portfolio .container-portfolio .items .title-pf{
+    color: #fff;
+    font-family: Lexend Deca;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.portfolio .container-portfolio .items .title-pf span{
+    color: #EAB308;
+}
+
+.portfolio .container-portfolio .items .text-pf{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9ca3af;
+}
+
+.portfolio .container-portfolio .items:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .container-portfolio .items .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 565px;
+    gap: 27px;
+}
+
+.portfolio .container-portfolio .items .container-img .img-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+
+.portfolio .container-portfolio .items .container-img .img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+
+/**/
+
+.header-top .header-container .items .links a:hover{
+    color: #fff;
+}
+
